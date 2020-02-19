@@ -8,7 +8,7 @@ import argparse
 def find_max_profit(prices):
  # Return the max profit that can be made from a single buy and sell 
  # Set the current  min price equal to first price in the list 
-    current_min = prices[0] #270
+    current_min = prices[0] 
 # set the max profit equal to first price subtracted from max price in the list
     max_profit = prices[1] - prices[0] 
 
