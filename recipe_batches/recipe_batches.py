@@ -13,7 +13,7 @@ def recipe_batches(recipe, ingredients):
     return 0
   else:
     # Divide available ingredients by required ingredients, append to list.
-    for key in recipe.keys():
+    for key in recipe.items():
       batches.append(ingredients[key] // recipe[key])
       return min(batches)
 
